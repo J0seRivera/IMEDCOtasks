@@ -74,7 +74,7 @@ nav > a:hover{
 
 header .textos-header{
     display: flex;
-    height: 430px;
+    height: 350px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -92,7 +92,14 @@ header .textos-header{
     font-weight: 300;
     color:#fff;
 }
-
+.aviso{
+    color: rgb(173, 13, 13);
+    margin:auto;
+    width: 80%;
+    font-size: 20px;
+    -webkit-text-stroke: 1px rgb(255, 251, 2);
+    text-align: center;
+}
 .textos-header h3{
     font-size: 12px;
     font-weight: 300;
