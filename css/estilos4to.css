@@ -47,8 +47,8 @@ nav > a:hover{
 }
 
 header .textos-header{
+    padding-top: 100px;
     display: flex;
-    height: 325px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -77,7 +77,7 @@ header .textos-header{
    /*color del link*/
    text-decoration: none;
     font-style: inherit;
-    color: #f5f5f5;
+    color: #e7eef7;
 }
 .link:hover{
     text-decoration: underline;
