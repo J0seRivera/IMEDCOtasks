@@ -1,1 +1,1 @@
-alert("No hay tarea para esta semana 😉\nTraten de no salir de casa 😜\nEspero la pasen bien con su Familia 😉 saludos!!!");
+alert("Favor de contestar la encuesta que esta en la seccion de grados, no le tomará mas de 1 minuto, hecer click en el texto que dice 'encuesta' de color celeste");
