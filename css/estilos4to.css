@@ -20,14 +20,15 @@ header {
     height: 600px;
     /*background: #0612c2;*/
     /* fallback for old browsers */
-    background:  url(../img/img1.jpg);
+    /* background:  url(../img/img1.jpg); */
     /* Chrome 10-25, Safari 5.1-6 
     background: linear-gradient(to right, hsla(217, 89%, 61%, 0.459), hsla(318, 6%, 41%, 0.664)), url(../img/img1.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
     position: relative;
 }
+/*Barra de inicio*/
 nav{
     text-align: center;
     width: 100%;
@@ -124,4 +125,11 @@ footer{
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
+}
+
+@media screen and (min-width: 480px){
+     .grid{
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         
+     }
 }
