@@ -9,7 +9,7 @@ console.log(fecha);
 console.log(hora);
 console.log(fechaYHora);
 var fechaActual= (hoy.getDate()+1);
-var fechaFinal=(hoy.getDate()+2);
+var fechaFinal=(hoy.getDate()+6);
 var fli = fechaFinal-fechaActual;
 
 if ( fli < fechaFinal&& fli !=0){

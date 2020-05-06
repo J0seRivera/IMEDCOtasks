@@ -1,11 +1,7 @@
-* {
-  font-family: 'Inter', sans-serif;
-}
-
 body {
-  font-family: 'open sans';
   background-color: hsl(232, 19%, 15%);
   margin:0px;
+  font-family: 'Inter', sans-serif;
 }
 
 nav{
@@ -35,6 +31,13 @@ nav > a:hover{
 .grid{
   display: grid;
   row-gap: 20px;
+}
+
+.encavezado{
+  text-align: center;
+  color: hsl(163, 72%, 41%);
+  font-size: 2em;
+  font-weight: bolder;
 }
 
 /*-------------Decoration-card-------------*/
@@ -122,7 +125,7 @@ nav > a:hover{
 }
 
 .icono-sc {
-  width: 25px;
+  width: 30px;
   height: 30px;
   margin-top: 10px;
 }
@@ -156,30 +159,32 @@ footer{
 
 .content-foo h4{
   color: #fff;
-  border-bottom: 3px solid #202cd3;
+  border-bottom: 1px solid hsl(228, 28%, 20%);
   padding-bottom: 5px;
   margin-bottom: 10px;
   font-size: .8em;
 }
 
 .content-foo p{
-  color: #ccc;
+  color: hsl(228, 34%, 66%);;
   font-size: .7em;
 }
 
 .titulo-final{
   text-align: center;
-  font-size: 12px;
+  font-size: .6em;
   margin: 20px 0 0 0;
   color: #9e9797;
+  padding-bottom: 10px;
 }
 
 .contact {
-
-  color: #4cee69;
-  font-weight: 300;
+  color: hsl(228, 34%, 66%);;
+  font-weight: bold;
   text-decoration: none;
-  margin-right: 10px;
+}
+.contact:hover{
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 500px){

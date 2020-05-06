@@ -1,11 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'open sans';
+}
+
+.t-vid{
+ color: hsl(228, 34%, 66%);
+ font-size: 2em;
+ margin: 25px 0px 25px 0px;
+
 }
 .videos{
     text-align: center;
@@ -20,8 +26,8 @@ body {
 .encuesta{
     text-align: center;
 }
-.titulo {
-    padding-top: 25px;
+.titulo-main {
+    padding-top: 12px;
     color: #4285f4;
     font-size: 30px;
     text-align: center;
@@ -49,11 +55,7 @@ a{
 }
 nav{
     text-align: center;
-    width: 100%;
-    height: 75px;
     position: fixed;
-    padding-top: 25px;
-    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.459), hsla(318, 6%, 41%, 0.664)), url(../img/img1.jpg);
 }
 .contact {
 
@@ -63,21 +65,9 @@ nav{
     margin-right: 10px;
 }
 
-nav > a{
-    color:#fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-    
-}
-
-nav > a:hover{
-    text-decoration: underline;
-}
-
 header .textos-header{
     display: flex;
-    height: 350px;
+    height: 500px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -95,14 +85,7 @@ header .textos-header{
     font-weight: 300;
     color:#fff;
 }
-.aviso{
-    color: rgb(173, 13, 13);
-    margin:auto;
-    width: 80%;
-    font-size: 20px;
-    -webkit-text-stroke: 1px rgb(255, 251, 2);
-    text-align: center;
-}
+
 .textos-header h3{
     font-size: 12px;
     font-weight: 300;
@@ -123,13 +106,20 @@ main .sobre-nosotros{
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
+    color: hsl(228, 34%, 66%);
 }
 
 .imagen-about-us{
     width: 25%;
     height: 25%;
 }
-
+.titulo-instructions{
+    text-align: center;
+    color:hsl(228, 34%, 66%);
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 24px;
+}
 .sobre-nosotros .contenido-textos{
     width: 48%;
 }
@@ -156,63 +146,6 @@ main .sobre-nosotros{
     font-weight: 300;
     text-align: justify;
 }
-
-/* Galeria */
-
-
-.portafolio{
-    background: #f2f2f2;
-}
-
-.galeria-port{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.imagen-port{
-    width: 24%;
-    margin-bottom: 10px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-}
-
-.imagen-port > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
-    transition: transform .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hover-galeria img{
-    width: 50px;
-}
-
-.hover-galeria p{
-    color: #fff;
-}
-
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
-}
-
-
 
 /*  Our team */
 
@@ -244,46 +177,6 @@ main .sobre-nosotros{
 .servicio-ind p{
     font-weight: 300;
     text-align: justify;
-}
-
-/* footer */
-
-footer{
-    background: #414141;
-    padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
-}
-
-.contenedor-footer{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-}
-
-.content-foo{
-    text-align: center;
-}
-
-.content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #202cd3;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.content-foo p{
-    color: #ccc;
-}
-
-.titulo-final{
-    text-align: center;
-    font-size: 24px;
-    margin: 20px 0 0 0;
-    color: #9e9797;
 }
 
 @media screen and (max-width:900px){
