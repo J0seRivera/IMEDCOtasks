@@ -101,7 +101,7 @@ nav > a:hover{
 .counter-fin img{
   margin-right: 6px;
 }
-#counter-in{
+.counter-in{
   font-size: .85em;
   color:hsl(150, 86%, 40%);
   margin-top: .8em;
